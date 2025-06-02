@@ -20,25 +20,25 @@ export default function HeroSection() {
       {/* Subtle Pattern Elements */}
       <motion.div
         className="absolute top-20 right-20 w-8 h-8 bg-orange-200 rounded-full opacity-30"
-        animate={{ 
+        animate={{
           scale: [1, 1.2, 1],
           opacity: [0.3, 0.6, 0.3]
         }}
         transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
       />
-      
+
       <motion.div
         className="absolute bottom-32 left-16 w-6 h-6 bg-green-200 rounded-full opacity-25"
-        animate={{ 
+        animate={{
           scale: [1, 1.3, 1],
           opacity: [0.25, 0.5, 0.25]
         }}
         transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
       />
-      
+
       <motion.div
         className="absolute top-1/2 right-32 w-4 h-4 bg-purple-200 rounded-full opacity-20"
-        animate={{ 
+        animate={{
           scale: [1, 1.4, 1],
           opacity: [0.2, 0.4, 0.2]
         }}
@@ -47,19 +47,19 @@ export default function HeroSection() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div 
+          <motion.div
             className="space-y-8"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <motion.h1 
+            <motion.h1
               className="text-4xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight text-gray-900"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <span className="block">AI TRANSFORMEERT</span>
+              <span className="block">AI VERANDERT OOK</span>
               <span className="relative block">
                 <span className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 bg-clip-text text-transparent">
                   JOUW BEDRIJF
@@ -79,7 +79,7 @@ export default function HeroSection() {
               </span>
             </motion.h1>
 
-            <motion.p 
+            <motion.p
               className="text-xl md:text-2xl text-gray-600 leading-relaxed font-light max-w-3xl mx-auto"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -88,7 +88,7 @@ export default function HeroSection() {
               Strategisch AI-advies voor MKB. Van roadmap tot implementatie.
             </motion.p>
 
-            <motion.div 
+            <motion.div
               className="light-glassmorphism p-6 md:p-8 rounded-2xl border border-orange-500/20 shadow-xl max-w-2xl mx-auto"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -98,10 +98,10 @@ export default function HeroSection() {
                 <Brain className="w-8 h-8 text-orange-600" />
                 <p className="text-lg font-bold text-gray-800 text-center sm:text-left">
                   <span className="text-orange-600 font-mono">INTERIM CHIEF AI OFFICER</span>
-                  <span className="block sm:inline sm:ml-2">vast bedrag per maand</span>
+                  <span className="block sm:inline sm:ml-2">voor een vast bedrag per maand</span>
                 </p>
               </div>
-              
+
               <motion.a
                 href="mailto:hello@vooruit.ai"
                 className="inline-flex items-center space-x-3 bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 md:px-8 py-3 md:py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto justify-center"
