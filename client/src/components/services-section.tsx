@@ -5,28 +5,28 @@ const services = [
   {
     icon: Compass,
     title: "STRATEGISCH AI-ADVIES",
-    description: "AI-roadmaps en CAIO-as-a-Service. Strategisch lid van je team voor vast bedrag per maand.",
+    description: "AI-roadmaps en een CAIO-as-a-Service: strategisch lid van je team voor een vast bedrag per maand.",
     gradient: "from-orange-500 to-red-500",
     accent: "border-orange-500/30"
   },
   {
     icon: Wrench,
-    title: "TOOLING & ORKESTRATIE",
-    description: "Juiste tools kiezen: copilots, multi-agent workflows (n8n, LangGraph, CrewAI).",
+    title: "TOOLING & ORCHESTRATIE",
+    description: "Juiste tools kiezen: slimme workflows of chatbots, agents, langchain, MCP en RAG",
     gradient: "from-green-400 to-emerald-500",
     accent: "border-green-500/30"
   },
   {
     icon: Brain,
-    title: "AI AGENT ARCHITECTUUR",
-    description: "Agent-based oplossingen, componentopbouw en kennisstructuren.",
+    title: "AI-AGENT ARCHITECTUUR",
+    description: "Agent-based oplossingen: componentopbouw en kennisstructuren.",
     gradient: "from-purple-500 to-pink-500",
     accent: "border-purple-500/30"
   },
   {
     icon: Users,
-    title: "AI-ENABLEMENT TEAMS",
-    description: "Workshops en coaching zodat teams zelfstandig met AI-tools werken.",
+    title: "AI-ENABLED TEAMS",
+    description: "Persoonlijke begeleiding: zodat teams zelfstandig met AI-tools werken en deze kunnen inzetten.",
     gradient: "from-cyan-400 to-blue-500",
     accent: "border-cyan-500/30"
   }
@@ -41,14 +41,14 @@ export default function ServicesSection() {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           className="text-center mb-20"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <motion.h2 
+          <motion.h2
             className="text-5xl lg:text-7xl font-black mb-8 tracking-tight text-gray-900"
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -77,14 +77,14 @@ export default function ServicesSection() {
               whileHover={{ scale: 1.02, y: -5 }}
             >
               {/* Background Glow Effect */}
-              <motion.div 
+              <motion.div
                 className={`absolute inset-0 bg-gradient-to-br ${service.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-500 rounded-2xl`}
                 initial={false}
               />
-              
-              <motion.div 
+
+              <motion.div
                 className={`w-20 h-20 bg-gradient-to-br ${service.gradient} rounded-2xl flex items-center justify-center mb-8 shadow-lg`}
-                whileHover={{ 
+                whileHover={{
                   scale: 1.1,
                   rotate: [0, -5, 5, 0]
                 }}
@@ -92,11 +92,11 @@ export default function ServicesSection() {
               >
                 <service.icon className="w-10 h-10 text-white" />
               </motion.div>
-              
+
               <h3 className="text-2xl font-black mb-6 text-gray-900 group-hover:text-orange-600 transition-colors duration-500 font-mono">
                 {service.title}
               </h3>
-              
+
               <p className="text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
                 {service.description}
               </p>

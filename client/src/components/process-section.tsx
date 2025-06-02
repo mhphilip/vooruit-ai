@@ -4,13 +4,13 @@ const steps = [
   {
     number: "1",
     title: "Strategiesessie",
-    description: "We starten met een grondige analyse van jouw bedrijf en AI-mogelijkheden.",
+    description: "We starten met een analyse van jouw bedrijf en verkennen AI-gebruik en mogelijkheden.",
     gradient: "from-blue-500 to-cyan-400"
   },
   {
     number: "2",
     title: "Roadmap & Tools",
-    description: "Concrete stappenplan met de juiste toolkeuzes voor jouw organisatie.",
+    description: "We maken een concreet stappenplan met de juiste toolkeuzes voor jouw organisatie.",
     gradient: "from-purple-500 to-green-400"
   },
   {
@@ -25,17 +25,17 @@ export default function ProcessSection() {
   return (
     <section className="py-24 bg-black relative overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0">
-        <img 
-          src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
-          alt="Abstract network visualization with glowing connections and data nodes" 
+      <div className="absolute inset-0 hidden">
+        <img
+          src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
+          alt="Abstract network visualization with glowing connections and data nodes"
           className="w-full h-full object-cover opacity-10"
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-black/90 to-black/80" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -48,7 +48,7 @@ export default function ProcessSection() {
               Proces
             </span>
           </h2>
-          <p className="text-xl text-gray-300">Effectiviteit en snelheid — geen eindeloze PowerPoints</p>
+          <p className="text-xl text-gray-300">Effectiviteit en snelheid — niet alleen theorie, maar ook praktijk.</p>
         </motion.div>
 
         <div className="grid lg:grid-cols-3 gap-12">
@@ -62,21 +62,21 @@ export default function ProcessSection() {
               viewport={{ once: true }}
             >
               <div className="relative mb-8">
-                <motion.div 
+                <motion.div
                   className={`w-20 h-20 bg-gradient-to-br ${step.gradient} rounded-full flex items-center justify-center mx-auto relative z-10`}
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
                   <span className="text-2xl font-bold text-white">{step.number}</span>
                 </motion.div>
-                
+
                 {/* Connection Line */}
-                {index < steps.length - 1 && (
+                {index < steps.length && (
                   <div className="absolute top-10 left-1/2 w-full h-px bg-gradient-to-r from-blue-500 to-cyan-400 hidden lg:block transform -translate-x-1/2 z-0" />
                 )}
               </div>
-              
-              <motion.h3 
+
+              <motion.h3
                 className="text-2xl font-bold mb-4 group-hover:text-cyan-400 transition-colors duration-300"
                 whileHover={{ scale: 1.05 }}
               >

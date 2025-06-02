@@ -8,11 +8,11 @@ export default function ContactSection() {
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-green-50 to-purple-50" />
       </div>
-      
+
       {/* Subtle Pattern Elements */}
       <motion.div
         className="absolute top-20 left-20 w-6 h-6 bg-orange-200 rounded-full opacity-20"
-        animate={{ 
+        animate={{
           scale: [1, 1.3, 1],
           opacity: [0.2, 0.4, 0.2]
         }}
@@ -20,7 +20,7 @@ export default function ContactSection() {
       />
       <motion.div
         className="absolute bottom-32 right-32 w-4 h-4 bg-green-200 rounded-full opacity-15"
-        animate={{ 
+        animate={{
           scale: [1, 1.4, 1],
           opacity: [0.15, 0.3, 0.15]
         }}
@@ -28,7 +28,7 @@ export default function ContactSection() {
       />
       <motion.div
         className="absolute top-1/3 right-16 w-3 h-3 bg-purple-200 rounded-full opacity-18"
-        animate={{ 
+        animate={{
           scale: [1, 1.2, 1],
           opacity: [0.18, 0.35, 0.18]
         }}
@@ -42,7 +42,7 @@ export default function ContactSection() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <motion.h2 
+          <motion.h2
             className="text-6xl lg:text-8xl font-black mb-12 tracking-tight text-gray-900"
             initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -65,14 +65,14 @@ export default function ContactSection() {
             ?
           </motion.h2>
 
-          <motion.p 
+          <motion.p
             className="text-2xl text-gray-600 mb-16 max-w-4xl mx-auto leading-relaxed font-light"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            AI strategisch inzetten in jouw organisatie. Start direct.
+            Wij zijn er om je te begeleiden in deze transformatie en zorgen ervoor dat kosten en tijdsinvestering in lijn zijn met de waarde die AI jouw bedrijf kan bieden. Geen hype, maar praktische oplossingen die direct resultaat opleveren.
           </motion.p>
 
           {/* Main CTA Card */}
@@ -91,17 +91,17 @@ export default function ContactSection() {
             </div>
 
             <h3 className="text-3xl font-black mb-6 text-gray-900 font-mono">
-              START DE CONVERSATIE
+              START DE TRANSITIE NAAR AI
             </h3>
-            
+
             <p className="text-xl text-gray-600 mb-10 leading-relaxed">
-              Direct contact met AI-experts.
+              Plan een vrijblijvende digitale afspraak zodat we elkaar beter leren kennen en kunnen bespreken hoe AI jouw organisatie kan versterken. Geen verplichtingen, alleen een open gesprek over de mogelijkheden.
             </p>
 
             <motion.a
               href="mailto:hello@vooruit.ai"
               className="inline-flex items-center space-x-4 bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 text-white px-12 py-6 rounded-2xl font-black text-2xl shadow-lg hover:shadow-xl transition-all duration-300 group"
-              whileHover={{ 
+              whileHover={{
                 scale: 1.05
               }}
               whileTap={{ scale: 0.95 }}
@@ -116,14 +116,14 @@ export default function ContactSection() {
               </motion.div>
             </motion.a>
 
-            <motion.p 
+            <motion.p
               className="text-sm text-gray-500 mt-8 font-mono"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 1.2 }}
               viewport={{ once: true }}
             >
-              RESPONSE BINNEN 24 UUR
+              PERSOONLIJK (EN MENSELIJK) ANTWOORD BINNEN 24 UUR
             </motion.p>
           </motion.div>
 

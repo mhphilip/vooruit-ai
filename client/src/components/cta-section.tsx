@@ -31,8 +31,8 @@ export default function CTASection() {
       </div>
 
       <div className="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <motion.h2 
-          className="text-4xl lg:text-6xl font-bold mb-8"
+        <motion.h2
+          className="text-4xl lg:text-6xl font-bold mb-8 leading-tight lg:leading-[1.2] leading-snug"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -54,34 +54,34 @@ export default function CTASection() {
           {" "}in plaats van ruis?
         </motion.h2>
 
-        <motion.p 
+        <motion.p
           className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          Laten we samen kijken hoe AI strategisch ingezet kan worden in jouw organisatie. 
-          Plan direct een strategiesessie of neem contact op.
+          Laten we samen kijken hoe AI strategisch ingezet kan worden in jouw organisatie.
+          Plan direct een strategiesessie en neem contact op.
         </motion.p>
 
-        <motion.div 
+        <motion.div
           className="flex flex-col sm:flex-row gap-6 justify-center items-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           viewport={{ once: true }}
         >
-          <Button 
+          <Button
             onClick={scrollToContact}
             className="bg-gradient-to-r from-blue-500 to-cyan-400 text-white hover:scale-105 transition-transform duration-300 px-10 py-5 text-lg flex items-center space-x-3"
             size="lg"
           >
             <Calendar className="w-5 h-5" />
-            <span>Plan een strategiesessie</span>
+            <span>Plan een gesprek</span>
           </Button>
 
-          <motion.a 
+          <motion.a
             href="mailto:hello@vooruit.ai"
             className="text-cyan-400 hover:text-white transition-colors duration-300 flex items-center space-x-3 text-lg font-medium"
             whileHover={{ scale: 1.05 }}
