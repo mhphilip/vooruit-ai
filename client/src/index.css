@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 207 90% 54%;
+  --primary-foreground: 211 100% 99%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+
+  /* Custom colors for the cutting-edge AI theme */
+  --electric: 221 83% 53%; /* #0066FF */
+  --cyber-orange: 25 100% 55%; /* #FF6B00 */
+  --neon-green: 120 80% 35%; /* #1AE637 */
+  --dark-green: 120 50% 15%; /* #0F3A1A */
+  --dark: 240 6% 4%; /* #0A0A0B */
+  --dark-secondary: 240 5% 11%; /* #1A1A1D */
+  --matrix-green: 120 100% 25%; /* #008000 */
+  --cyber-purple: 280 100% 45%; /* #7000E6 */
+  --neural-pink: 320 100% 50%; /* #FF0080 */
+  --quantum-blue: 200 100% 45%; /* #0080E6 */
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 207 90% 54%;
+  --primary-foreground: 211 100% 99%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply antialiased bg-gray-50 text-gray-900;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', monospace;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .gradient-bg {
+    background: linear-gradient(-45deg, hsl(var(--cyber-orange)), hsl(var(--neon-green)), hsl(var(--cyber-purple)), hsl(var(--neural-pink)));
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+  }
+
+  .neural-grid {
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(var(--cyber-orange) / 0.1) 2px, transparent 2px),
+      radial-gradient(circle at 75% 75%, hsl(var(--neon-green) / 0.1) 2px, transparent 2px);
+    background-size: 60px 60px, 80px 80px;
+    background-position: 0 0, 30px 30px;
+  }
+
+  .cyber-glow {
+    box-shadow: 0 0 20px hsl(var(--cyber-orange) / 0.3), 0 0 40px hsl(var(--neon-green) / 0.2);
+  }
+
+  .light-glassmorphism {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .data-stream {
+    background: linear-gradient(90deg, 
+      transparent, 
+      hsl(var(--matrix-green) / 0.1), 
+      hsl(var(--cyber-orange) / 0.1), 
+      transparent
+    );
+    background-size: 200% 100%;
+    animation: dataFlow 3s linear infinite;
+  }
+
+  .tech-grid {
+    background-image: 
+      linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .highlight-text {
+    background: linear-gradient(120deg, transparent 0%, transparent 40%, hsl(var(--cyan)) 40%, hsl(var(--cyan)) 60%, transparent 60%);
+    background-size: 200% 100%;
+    transition: background-position 0.3s ease;
+  }
+
+  .highlight-text:hover {
+    background-position: -100% 0;
+  }
+}
+
+@keyframes gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes dataFlow {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes neuralPulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+@keyframes quantumShift {
+  0% { transform: translateX(0) rotateY(0deg); }
+  25% { transform: translateX(10px) rotateY(90deg); }
+  50% { transform: translateX(0) rotateY(180deg); }
+  75% { transform: translateX(-10px) rotateY(270deg); }
+  100% { transform: translateX(0) rotateY(360deg); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--dark));
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, hsl(var(--electric)), hsl(var(--cyan)));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, hsl(var(--cyan)), hsl(var(--electric)));
+}

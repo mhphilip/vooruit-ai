@@ -1,0 +1,75 @@
+
+Maak een moderne, creatief-zakelijke landingspagina voor het AI-adviesbureau Vooruit.ai.
+
+💡 Concept & Visie:
+	•	Wij helpen MKB-bedrijven om strategisch en pragmatisch gebruik te maken van de nieuwste AI-ontwikkelingen.
+	•	Denk aan AI agents, A2A-interacties, workfloworkestratie, embedded copilots en generatieve AI in real-world contexten.
+	•	Geen implementatiebureau — wél strategisch advies, toolkeuze en begeleiding.
+	•	Interim inzet als Chief AI Officer — voor een vast bedrag per maand.
+	•	Focus op effectiviteit en snelheid — geen eindeloze PowerPoints, maar concrete stappen vooruit.
+
+⸻
+
+🧠 Tone of Voice:
+	•	Intelligent en helder
+	•	Modern zakelijk, niet stoffig
+	•	Creatief en visueel strak
+
+⸻
+
+🖼️ Stijl & Vormgeving:
+	•	Design-geïnspireerd door moderne sci-fi games of tech UI’s
+	•	Strakke typografie (bijv. IBM Plex Sans, Inter, or Space Grotesk)
+	•	Gebruik van visuals die associëren met abstracte datastructuren, netwerken, flows en dynamiek
+	•	Interactieve componenten als dashboards, flow-diagrammen, highlighter text, etc.
+
+⸻
+
+📛 Bedrijfsnaam:
+
+Vooruit.ai
+
+⸻
+
+🧠 Slogan:
+
+“AI vooruitgedacht.”
+Strategie, tooling en AI-begeleiding voor het MKB.
+
+⸻
+
+📋 Hero-tekst:
+
+AI verandert alles. Wij helpen je kiezen waar te beginnen.
+Vooruit.ai volgt de nieuwste ontwikkelingen in generatieve AI, agent-to-agent communicatie en intelligente orkestratie.
+Wij vertalen die kennis naar concrete toepassingen voor jouw bedrijf.
+
+Wij draaien mee als je interim Chief AI Officer — voor een vast bedrag per maand.
+
+[Plan een strategiesessie] 
+
+⸻
+
+🛠️ Diensten:
+
+🧭 Strategisch AI-advies
+Begeleiding bij AI-roadmaps, teamstructuur en implementatiekeuzes.
+
+🧰 Tooling & Orkestratie
+Kiezen van de juiste tools: van copilots tot multi-agent workflows (n8n, LangGraph, CrewAI, etc).
+
+🧠 AI Agent Architectuur
+Advies over agent-based oplossingen, componentopbouw, en kennisstructuren.
+
+🧑‍🏫 AI-Enablement voor Teams
+Workshops, coaching en begeleiding om medewerkers zelfstandig te laten werken met AI-tools.
+
+🎛️ CAIO-as-a-Service
+Strategisch lid van je team — één aanspreekpunt voor alles wat met AI te maken heeft.
+
+⸻
+
+📬 Call to Action:
+
+Wil je richting in plaats van ruis?
+📩 hello@vooruit.ai — of plan direct een strategiesessie.
