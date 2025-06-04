@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 export default function CTASection() {
   const scrollToContact = () => {
-    const element = document.getElementById("contact");
+    const element = document.getElementById("transition");
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }

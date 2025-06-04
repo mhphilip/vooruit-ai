@@ -35,7 +35,7 @@ export default function ContactSection() {
         transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 2 }}
       />
 
-      <div className="relative max-w-6xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+      <div className="relative max-w-6xl mx-auto text-center px-4 sm:px-6 lg:px-8" id="transition">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
