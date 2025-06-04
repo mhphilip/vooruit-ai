@@ -5,14 +5,14 @@ export default function Footer() {
   return (
     <footer className="bg-black py-12 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           className="flex flex-col md:flex-row justify-between items-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <motion.div 
+          <motion.div
             className="flex items-center space-x-3 mb-4 md:mb-0"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -44,14 +44,14 @@ export default function Footer() {
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           className="mt-8 pt-8 text-center text-sm text-gray-400"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           viewport={{ once: true }}
         >
-          <p>&copy; 2024 VOORUIT.AI. Alle rechten voorbehouden.</p>
+          <p>&copy; 2025 VOORUIT.AI. Alle rechten voorbehouden.</p>
         </motion.div>
       </div>
     </footer>
