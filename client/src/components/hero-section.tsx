@@ -106,7 +106,7 @@ export default function HeroSection() {
               </div>
 
               <motion.a
-                href="mailto:hello@vooruit.ai"
+                href="mailto:hello@vooruit.ai?subject=Ik%20wil%20graag%20een%20gesprek%20met%20vooruit.ai&body=Laat%20hier%20je%20naam%20en%20eventueel%20telefoonnummer%20achter%20en%20wat%20opties%20wanneer%20je%20zou%20kunnen"
                 className="inline-flex items-center space-x-3 bg-gradient-to-r from-orange-500 to-red-500 text-white px-6 md:px-8 py-3 md:py-4 rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto justify-center"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}

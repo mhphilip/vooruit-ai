@@ -99,7 +99,7 @@ export default function ContactSection() {
             </p>
 
             <motion.a
-              href="mailto:hello@vooruit.ai"
+              href="mailto:hello@vooruit.ai?subject=Ik%20wil%20graag%20een%20gesprek%20met%20vooruit.ai&body=Laat%20hier%20je%20naam%20en%20eventueel%20telefoonnummer%20achter%20en%20wat%20opties%20wanneer%20je%20zou%20kunnen"
               className="inline-flex items-center space-x-4 bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 text-white px-12 py-6 rounded-2xl font-black text-2xl shadow-lg hover:shadow-xl transition-all duration-300 group"
               whileHover={{
                 scale: 1.05

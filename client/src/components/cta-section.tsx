@@ -82,7 +82,7 @@ export default function CTASection() {
           </Button>
 
           <motion.a
-            href="mailto:hello@vooruit.ai"
+            href="mailto:hello@vooruit.ai?subject=Ik%20wil%20graag%20een%20gesprek%20met%20vooruit.ai&body=Laat%20hier%20je%20naam%20en%20eventueel%20telefoonnummer%20achter%20en%20wat%20opties%20wanneer%20je%20zou%20kunnen"
             className="text-cyan-400 hover:text-white transition-colors duration-300 flex items-center space-x-3 text-lg font-medium"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
