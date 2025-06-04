@@ -4,17 +4,17 @@ import { Check } from "lucide-react";
 const benefits = [
   {
     title: "Moeilijke dingen makkelijk maken",
-    description: "We maken complexe AI-technologie toegankelijk en begrijpelijk voor jouw organisatie.",
+    description: "Samen maken we complexe AI-technologie toegankelijk en begrijpelijk voor jouw organisatie",
     gradient: "from-blue-500 to-cyan-400"
   },
   {
-    title: "Cutting-edge Kennis",
-    description: "We volgen de nieuwste ontwikkelingen in AI agents, A2A-interacties en LLMs.",
+    title: "Altijd up-to-date",
+    description: "Ontwikkelingen op het gebied van AI volgen zich snel op; wij zorgen dat jij altijd voorop loopt.",
     gradient: "from-purple-500 to-green-400"
   },
   {
     title: "MKB-gericht en Nederlands",
-    description: "Specifiek ontworpen voor middelgrote bedrijven in Nederland die snel willen schakelen.",
+    description: "Er is veel AI-advies, maar weinig gericht op het MKB. Wij zijn er voor jou, in jouw taal.",
     gradient: "from-cyan-400 to-blue-500"
   }
 ];
@@ -112,16 +112,14 @@ export default function AboutSection() {
             viewport={{ once: true }}
           >
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-6 text-gray-900">
+              <h2 className="text-4xl lg:text-4xl font-bold mb-6 text-gray-900">
                 Waarom{" "}
                 <span className="bg-gradient-to-r from-orange-500 to-green-500 bg-clip-text text-transparent">
                   VOORUIT.AI
                 </span>
                 ?
               </h2>
-              <p className="text-xl text-gray-600 leading-relaxed">
-                Het AI landschap verandert te snel om zelf bij te houden.
-              </p>
+
             </div>
 
             <div className="space-y-6">

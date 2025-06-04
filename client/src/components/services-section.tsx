@@ -5,28 +5,28 @@ const services = [
   {
     icon: Compass,
     title: "STRATEGISCH AI-ADVIES",
-    description: "AI-roadmaps en een CAIO-as-a-Service: strategisch lid van je team voor een vast bedrag per maand.",
+    description: "AI-roadmaps en planning: voor een vast bedrag per maand",
     gradient: "from-orange-500 to-red-500",
     accent: "border-orange-500/30"
   },
   {
     icon: Wrench,
     title: "TOOLING & ORCHESTRATIE",
-    description: "Juiste tools kiezen: slimme workflows of chatbots, agents, langchain, MCP en RAG",
+    description: "Juiste tools kiezen: slimme workflows, chatbots en agents",
     gradient: "from-green-400 to-emerald-500",
     accent: "border-green-500/30"
   },
   {
     icon: Brain,
     title: "AI-AGENT ARCHITECTUUR",
-    description: "Agent-based oplossingen: componentopbouw en kennisstructuren.",
+    description: "Volg de laatste ontwikkelingen: A2A, MCP, RAG en meer",
     gradient: "from-purple-500 to-pink-500",
     accent: "border-purple-500/30"
   },
   {
     icon: Users,
     title: "AI-ENABLED TEAMS",
-    description: "Persoonlijke begeleiding: zodat teams zelfstandig met AI-tools werken en deze kunnen inzetten.",
+    description: "Persoonlijke begeleiding: zelfstandig werken met AI",
     gradient: "from-cyan-400 to-blue-500",
     accent: "border-cyan-500/30"
   }
@@ -55,7 +55,7 @@ export default function ServicesSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            ONZE{" "}
+            DE {" "}
             <span className="bg-gradient-to-r from-orange-500 to-green-500 bg-clip-text text-transparent">
               DIENSTEN
             </span>

@@ -62,7 +62,7 @@ export default function CTASection() {
           viewport={{ once: true }}
         >
           Laten we samen kijken hoe AI strategisch ingezet kan worden in jouw organisatie.
-          Plan direct een strategiesessie en neem contact op.
+          Plan direct een gesprek en neem contact op.
         </motion.p>
 
         <motion.div

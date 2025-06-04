@@ -59,24 +59,25 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <span className="block my-2">AI VERANDERT OOK</span>
+
+
               <span className="relative block">
-                <span className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 bg-clip-text text-transparent">
-                  JOUW BEDRIJF
+                <span className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 bg-clip-text text-transparent py-2">
+                  SAMEN VOORUIT
                 </span>
                 <motion.div
-                  className="absolute bottom-0 left-0 w-full h-2 bg-gradient-to-r from-orange-500 to-green-500 rounded-full"
+                  className="absolute bottom--2 left-0 w-full h-2 bg-gradient-to-r from-orange-500 to-green-500 rounded-full"
                   initial={{ scaleX: 0 }}
                   animate={{ scaleX: 1 }}
                   transition={{ delay: 0.8, duration: 0.8 }}
                 />
               </span>
               <span className="block mt-4 text-3xl md:text-5xl lg:text-6xl">
-                TIJD OM {" "}
+                MET {" "}
                 <span className="bg-gradient-to-r from-green-500 to-emerald-600 bg-clip-text text-transparent">
-                  VOORUIT
+                  AI
                 </span>
-                {"  "}TE GAAN
+                {"  "}DIE WERKT VOOR ELK BEDRIJF
               </span>
             </motion.h1>
 
@@ -96,11 +97,11 @@ export default function HeroSection() {
               transition={{ delay: 0.6 }}
             >
               <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mb-6">
-                <Brain className="w-8 h-8 text-orange-600" />
-                <p className="text-lg font-bold text-gray-800 text-center sm:text-left">
+                <Brain className="w-12 h-12 text-orange-600" />
+                <p className="text-lg font-bold text-gray-800 text-center">
                   Nu ook als interim {" "}
                   <span className="text-orange-600 font-mono">CHIEF AI OFFICER</span>
-                  <span className="block sm:inline sm:ml-2"> tegen een vaste prijs</span>
+                  <span className="block sm:inline sm:ml-2"> tegen een vaste prijs per maand</span>
                 </p>
               </div>
 

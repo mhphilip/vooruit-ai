@@ -3,20 +3,20 @@ import { motion } from "framer-motion";
 const steps = [
   {
     number: "1",
-    title: "Strategiesessie",
-    description: "We starten met een analyse van jouw bedrijf en verkennen AI-gebruik en mogelijkheden.",
+    title: "Nulmeting",
+    description: "We starten met een analyse van jouw bedrijf en verkennen AI-gebruik en mogelijkheden",
     gradient: "from-blue-500 to-cyan-400"
   },
   {
     number: "2",
     title: "Roadmap & Tools",
-    description: "We maken een concreet stappenplan met de juiste toolkeuzes voor jouw organisatie.",
+    description: "We maken een concreet stappenplan met de juiste toolkeuzes voor jouw organisatie",
     gradient: "from-purple-500 to-green-400"
   },
   {
     number: "3",
     title: "Begeleiding & Groei",
-    description: "Doorlopende ondersteuning en optimalisatie van je AI-implementatie.",
+    description: "Doorlopende ondersteuning en optimalisatie van je AI-implementatie",
     gradient: "from-cyan-400 to-blue-500"
   }
 ];
@@ -43,12 +43,12 @@ export default function ProcessSection() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            Ons{" "}
+            Het{" "}
             <span className="bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
               Proces
             </span>
           </h2>
-          <p className="text-xl text-gray-300">Effectiviteit en snelheid — niet alleen theorie, maar ook praktijk.</p>
+          <p className="text-xl text-gray-300">Effectiviteit en snelheid: keuzes maken en implementeren</p>
         </motion.div>
 
         <div className="grid lg:grid-cols-3 gap-12">

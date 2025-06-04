@@ -72,7 +72,7 @@ export default function ContactSection() {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            Wij zijn er om je te begeleiden in deze transformatie en zorgen ervoor dat kosten en tijdsinvestering in lijn zijn met de waarde die AI jouw bedrijf kan bieden. Geen hype, maar praktische oplossingen die direct resultaat opleveren.
+            Ontvang begeleiding bij deze transformatie, met aandacht voor kosten en tijdsinvestering die in verhouding staan tot de waarde die AI voor jouw bedrijf kan opleveren. Geen hype, maar praktische oplossingen die direct resultaat geven
           </motion.p>
 
           {/* Main CTA Card */}
@@ -95,7 +95,7 @@ export default function ContactSection() {
             </h3>
 
             <p className="text-xl text-gray-600 mb-10 leading-relaxed">
-              Plan een vrijblijvende digitale afspraak zodat we elkaar beter leren kennen en kunnen bespreken hoe AI jouw organisatie kan versterken. Geen verplichtingen, alleen een open gesprek over de mogelijkheden.
+              Plan een vrijblijvende afspraak zodat we elkaar beter leren kennen en kunnen bespreken hoe AI jouw organisatie kan versterken.
             </p>
 
             <motion.a
